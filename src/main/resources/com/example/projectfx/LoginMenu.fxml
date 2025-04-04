@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectfx.LoginMenuController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1000.0" preserveRatio="true">
+         <image>
+            <Image url="@bg6.jpg" />
+         </image>
+      </ImageView>
+      <VBox fillWidth="false">
+         <children>
+            <HBox fillHeight="false">
+               <children>
+                  <AnchorPane prefHeight="188.0" prefWidth="294.0">
+                     <children>
+                        <Label layoutX="238.0" layoutY="143.0" text="Club:" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="188.0" prefWidth="404.0">
+                     <children>
+                        <TextField fx:id="usernameField" layoutY="138.0" promptText="Username">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane>
+                     <children>
+                        <Label layoutX="201.0" layoutY="35.0" text="Password:" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane>
+                     <children>
+                        <TextField fx:id="passwordField" layoutY="28.0" promptText="Password" AnchorPane.topAnchor="28.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane>
+                     <children>
+                        <Button fx:id="confirmButton" layoutX="444.0" layoutY="6.0" mnemonicParsing="false" onAction="#confirmButtonClicked" text="Confirm">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="backButton" layoutX="297.0" layoutY="6.0" mnemonicParsing="false" onAction="#backButtonClicked" text="Back">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

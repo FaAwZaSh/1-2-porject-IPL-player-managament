@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectfx.CountryCountController">
+   <ImageView fitHeight="550.0" fitWidth="722.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@bg1.jpg" />
+      </image>
+   </ImageView>
+
+    <VBox fx:id="countryVBox" alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="10" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+
+</AnchorPane>
